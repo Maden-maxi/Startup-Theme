@@ -66,6 +66,9 @@ $sui-font: 'sui/';
   &-angle-right:before { content: '\f105'; } /* '' */
   &-code:before { content: '\f121'; } /* '' */
   &-lifebuoy:before { content: '\f1cd'; } /* '' */
+  @for $i from 1 through 6 {
+    &-#{$i}x { font-size: 1rem + $i; }
+  }
 }
 $monstrerrat-font: 'monsterrat/';
 $title-font: 'Montserrat';
@@ -91,6 +94,7 @@ $title-font: 'Montserrat';
   font-style: normal;
 }
 $roboto-slab-font: 'roboto-slab/';
+$primary-font: 'Roboto Slab';
 @font-face {
   font-family: 'Roboto Slab';
   src: url( $fonts-path + $roboto-slab-font + 'subset-RobotoSlab-Regular.eot');

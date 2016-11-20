@@ -1,0 +1,20 @@
+.button-brand{
+  font-family: $title-font;
+  border: 2px solid $white;
+  color: $white;
+  &-rounded{
+    border-radius: 2px;
+    padding: 1em 2.75em;
+  }
+  background-color: transparent;
+  &:hover{
+    background-color: $white;
+    color: $alert-color;
+  }
+  &:focus{
+    background-color: $alert-color;
+  }
+  &:focus:hover{
+    color: $white;
+  }
+}

@@ -1,18 +1,42 @@
 {
   "MD. Khalil Uddin": {
     "photo": "khalil-uddin.jpg",
-    "position": "Head of Ideas"
+    "position": "Head of Ideas",
+    "social": {
+      "facebook": "https://www.facebook.com/khalil-uddin",
+      "twitter": "https://twitter.com/khalil-uddin",
+      "gplus": "https://plus.google.com/khalil-uddin",
+      "linkedin": "https://www.linkedin.com/khalil-uddin"
+    }
   },
   "Rubel Maih": {
     "photo": "rubel-miah.jpg",
-    "position": "Lead WordPress Developer"
+    "position": "Lead WordPress Developer",
+    "social": {
+      "facebook": "https://www.facebook.com/rubel-miah",
+      "twitter": "https://twitter.com/rubel-miah",
+      "gplus": "https://plus.google.com/rubel-miah",
+      "linkedin": "https://www.linkedin.com/rubel-miah"
+    }
   },
   "Shamim Mia": {
     "photo": "shamim-mia.jpg",
-    "position": "Sr. Web Developer"
+    "position": "Sr. Web Developer",
+    "social": {
+      "facebook": "https://www.facebook.com/shamim-mia",
+      "twitter": "https://twitter.com/shamim-mia",
+      "gplus": "https://plus.google.com/shamim-mia",
+      "linkedin": "https://www.linkedin.com/shamim-mia"
+    }
   },
   "John Doe": {
     "photo": "john-doe.jpg",
-    "position": "Front-end Developer"
+    "position": "Front-end Developer",
+    "social": {
+      "facebook": "https://www.facebook.com/john-doe",
+      "twitter": "https://twitter.com/john-doe",
+      "gplus": "https://plus.google.com/john-doe",
+      "linkedin": "https://www.linkedin.com/john-doe"
+    }
   }
 }

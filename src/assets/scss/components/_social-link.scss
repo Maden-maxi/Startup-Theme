@@ -1,0 +1,27 @@
+.social-link{
+  position: relative;
+  width: 28px;
+  height: 28px;
+  a{
+    display: inline-block;
+    color: $white;
+    padding: 0 !important;
+    @include vertical-align;
+  }
+  &:hover{
+    background-color: $alert-color;
+  }
+  &_circle{
+    display: inline-block;
+    border: 2px solid $white;
+    border-radius: 100%;
+    margin: 0 7px;
+    @include transition();
+    & a:hover{
+      color: $alert-color;
+    }
+    &:hover{
+      background-color: $white;
+    }
+  }
+}

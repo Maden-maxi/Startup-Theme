@@ -1,0 +1,30 @@
+.service{
+  &__icon{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #dfdfdf;
+    box-shadow: none;
+    .sui-code{
+      left: 48%;
+    }
+    @include transition();
+    &:hover{
+      background-color: $alert-color;
+      box-shadow: none;
+      i {
+        color: $white;
+      }
+    }
+    i {
+      @include vertical-align;
+      color: $alert-color;
+    }
+  }
+  &:first-child{
+    padding-left: 0;
+  }
+  &:last-child{
+    padding-right: 0;
+  }
+}

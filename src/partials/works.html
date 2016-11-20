@@ -1,0 +1,68 @@
+<div class="row works-tabs">
+    <div class="small-12 collapse">
+        <ul class="tabs text-center" data-tabs id="works-tabs">
+            {{#each works.categories}}
+            {{#if @first}}
+            <li class="tabs-title is-active"><a href="#{{this}}" aria-selected="true">{{this}}</a></li>
+            {{else}}
+            <li class="tabs-title"><a href="#{{this}}" aria-selected="true">{{this}}</a></li>
+            {{/if}}
+            {{/each}}
+        </ul>
+        <div class="tabs-content works-content" data-tabs-content="works-tabs">
+            {{#each works.tabs as |work category|}}
+            {{#if @first}}
+            <div class="tabs-panel is-active" id="{{category}}">
+                <div class="row small-up-1 medium-up-2 large-up-3">
+                {{#each work as |value key|}}
+
+                        <div class="column">
+
+                            <div class="card">
+                                <div class="card__container">
+                                    <img class="card__thumbnail" src="assets/img/works/{{value.thumbnail}}" alt="{{value.name}}">
+                                    <div class="card__overlay text-center">
+                                        <div class="work-meta">
+                                            <h3>{{value.name}}</h3>
+                                            <p class="work-category">{{value.category}}</p>
+                                            <a class="button button-brand uppercase" href="#">VIEW <i class="sui-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                {{/each}}
+                 </div>
+            </div>
+            {{else}}
+            <div class="tabs-panel" id="{{category}}">
+                <div class="row small-up-1 medium-up-2 large-up-3">
+                {{#each work}}
+
+                    <div class="column">
+
+                        <div class="card">
+                            <div class="card__container">
+                                <img class="card__thumbnail" src="assets/img/works/{{thumbnail}}" alt="{{name}}">
+                                <div class="card__overlay text-center">
+                                    <div class="work-meta">
+                                        <h3>{{name}}</h3>
+                                        <p class="work-category">{{category}}</p>
+                                        <a class="button button-brand uppercase" href="#">VIEW <i class="sui-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                {{/each}}
+                </div>
+            </div>
+            {{/if}}
+            {{/each}}
+        </div>
+    </div>
+</div>

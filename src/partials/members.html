@@ -1,21 +1,78 @@
-<div class="row">
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+<div class="row member">
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="infiniteWrap: false;">
         <ul class="orbit-container">
-            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-            {{#each members as |member name|}}
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><i class="sui-angle-left"></i></button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span><i class="sui-angle-right"></i></button>
+
             <li class="is-active orbit-slide">
-                <img class="orbit-image" src="assets/img/members/{{member.photo}}" alt="{{key}}">
-                <figcaption class="orbit-caption">{{key}}</figcaption>
-                <span>{{member.position}}</span>
+                <div class="small-12 columns member-row">
+                    <div class="row small-up-1 medium-up-2 large-up-4">
+                {{#each members as |member name|}}
+                        <div class="column">
+                            <div class="card">
+                                <div class="card__container">
+                                    <img class="card__thumbnail" src="assets/img/members/{{member.photo}}" alt="{{name - member.position}}">
+
+                                    <div class="card__overlay">
+                                        <div class="menu-centered member-links">
+                                            <ul class="menu">
+                                                {{#each member.social as |link social|}}
+                                                <li class="social-link">
+                                                    <a href="{{link}}"><i
+                                                        class="sui-{{social}}"></i></a>
+                                                </li>
+                                                {{/each}}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center member-info">
+                                    <h3>{{name}}</h3>
+                                    <p>{{member.position}}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                {{/each}}
+                    </div>
+                </div>
             </li>
-            {{/each}}
+
+            <li class=" orbit-slide">
+                <div class="small-12 columns member-row">
+                    <div class="row small-up-1 medium-up-2 large-up-4">
+                        {{#each members as |member name|}}
+                        <div class="column">
+                            <div class="card">
+                                <div class="card__container">
+                                    <img class="card__thumbnail" src="assets/img/members/{{member.photo}}" alt="{{name - member.position}}">
+
+                                    <div class="card__overlay">
+                                        <div class="menu-centered member-links">
+                                            <ul class="menu">
+                                                {{#each member.social as |link social|}}
+                                                <li class="social-link">
+                                                    <a href="{{link}}"><i
+                                                            class="sui-{{social}}"></i></a>
+                                                </li>
+                                                {{/each}}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center member-info">
+                                    <h3>{{name}}</h3>
+                                    <p>{{member.position}}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{/each}}
+                    </div>
+                </div>
+            </li>
+
         </ul>
-        <nav class="orbit-bullets">
-            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-        </nav>
+
     </div>
 </div>

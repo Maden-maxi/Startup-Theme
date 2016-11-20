@@ -1,0 +1,19 @@
+.card{
+  margin: 15px auto;
+  &__container{
+    position: relative;
+  }
+  &__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    background-color: transparentize($alert-color, .3);
+    @include transition();
+    &:hover{
+      opacity: 1;
+    }
+  }
+}

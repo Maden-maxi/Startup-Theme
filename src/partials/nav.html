@@ -3,11 +3,11 @@
     <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
       <button class="menu-icon dark" type="button" data-toggle></button>
     </span>
-        <strong class="uppercase">Startup</strong>
+        <strong class="logo"><a href="/">Startup</a></strong>
     </div>
     <div id="responsive-menu">
         <div class="top-bar-right">
-            <ul class="dropdown menu">
+            <ul class="dropdown vertical medium-horizontal menu" data-magellan>
                 {{#each menu.menu as |link name|}}
                 <li><a href="#{{link}}">{{name}}</a></li>
                 {{/each}}

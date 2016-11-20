@@ -1,0 +1,10 @@
+#responsive-menu a, .logo a{
+  font-family: $title-font;
+  @include transition();
+}
+#responsive-menu .menu a {
+  font-size: rem-calc(14);
+}
+.logo{
+  line-height: 2.2;
+}

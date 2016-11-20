@@ -1,0 +1,29 @@
+.member{
+  margin-top: 50px;
+  .orbit-previous, .orbit-next{
+    padding: rem-calc(11) rem-calc(6);
+    background: rgba(10, 10, 10, 0.3);
+    &:hover, &:focus{
+      background: $alert-color;
+    }
+  }
+  .orbit-previous{
+    left: 15px;
+  }
+  .orbit-next{
+    right: 15px;
+  }
+  &-row{
+    float: none !important;
+  }
+  &-links{
+    @include vertical-align;
+    top: 82%;
+  }
+  &-info{
+    margin-top: 20px;
+    p{
+      font-size: rem-calc(12);
+    }
+  }
+}

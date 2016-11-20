@@ -1,11 +1,11 @@
 <div class="row small-up-1 medium-up-3 text-center">
     {{#each services as |value key|}}
-        <div class="column">
-            <div class="thumbnail">
-                <i class="sui-{{value.icon}}"></i>
+        <div class="column service">
+            <div class="thumbnail rounded service__icon">
+                <i class="sui-{{value.icon}} sui-2x"></i>
             </div>
-            <h3 class="uppercase">{{key}}</h3>
-            <p>{{value.desc}}</p>
+            <h3 class="uppercase service__title">{{key}}</h3>
+            <p class="service__description">{{value.desc}}</p>
         </div>
     {{/each}}
 </div>

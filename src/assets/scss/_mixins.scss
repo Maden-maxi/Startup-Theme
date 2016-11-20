@@ -1,0 +1,11 @@
+@mixin transition($props: all, $time: .3s, $foo: ease-in){
+  transition-property: $props;
+  transition-duration: $time;
+  transition-timing-function: $foo;
+}
+@mixin vertical-align{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

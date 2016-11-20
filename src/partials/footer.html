@@ -1,3 +1,10 @@
-<footer id="footer">
+<footer id="footer" class="footer">
+    <div class="footer-social">
+        <ul>
+            {{#each socials as |link social|}}
+            <li class="social-link social-link_circle"><a href="{{link}}"><i class="sui-{{social}}"></i></a></li>
+            {{/each}}
+        </ul>
+    </div>
     <p class="copyright text-center uppercase">© 2015 Startup, Designed by ShapedTheme</p>
 </footer>

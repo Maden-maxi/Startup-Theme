@@ -1,0 +1,44 @@
+.work{
+  &-meta{
+    @include vertical-align;
+    color: $white;
+  }
+  &-category{
+    font-size: rem-calc(12);
+  }
+  &s{
+
+    &-tabs &-content{
+      border: none;
+    }
+
+    &-tabs .tabs{
+      border: none;
+      &-title{
+        float: none;
+        display: inline-block;
+        a {
+          color: $body-font-color;
+          @include transition(color);
+          &:hover, &:focus{
+            background-color: transparent;
+            color: $alert-color;
+          }
+          &:active{
+            background-color: $white;
+          }
+        }
+        &.is-active a, &.active a{
+          color: $alert-color;
+        }
+
+      }
+    }
+    .tabs-content, .tabs-panel{
+      border: none;
+    }
+  }
+}
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true']{
+  background-color: transparent;
+}
