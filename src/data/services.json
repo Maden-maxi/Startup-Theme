@@ -1,0 +1,14 @@
+{
+  "Clean typography": {
+    "icon": "font",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum."
+  },
+  "Rock solid code": {
+    "icon": "code",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum."
+  },
+  "Expert support": {
+    "icon": "lifebuoy",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum."
+  }
+}

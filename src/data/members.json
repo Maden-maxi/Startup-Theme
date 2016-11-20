@@ -1,0 +1,18 @@
+{
+  "MD. Khalil Uddin": {
+    "photo": "khalil-uddin.jpg",
+    "position": "Head of Ideas"
+  },
+  "Rubel Maih": {
+    "photo": "rubel-miah.jpg",
+    "position": "Lead WordPress Developer"
+  },
+  "Shamim Mia": {
+    "photo": "shamim-mia.jpg",
+    "position": "Sr. Web Developer"
+  },
+  "John Doe": {
+    "photo": "john-doe.jpg",
+    "position": "Front-end Developer"
+  }
+}

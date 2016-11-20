@@ -1,0 +1,152 @@
+{
+  "categories": ["All", "Branding", "Design", "Development", "Strategy"],
+  "tabs": {
+    "All": [
+      {
+        "name": "Hair Dresser",
+        "category": "Branding",
+        "thumbnail": "hair-dresser.jpg"
+      },
+      {
+        "name": "Bird",
+        "category": "Design",
+        "thumbnail": "bird.jpg"
+      },
+      {
+        "name": "Devices",
+        "category": "Development",
+        "thumbnail": "devices.jpg"
+      },
+      {
+        "name": "Camera",
+        "category": "Strategy",
+        "thumbnail": "bird.jpg"
+      },
+      {
+        "name": "Bike",
+        "category": "Branding",
+        "thumbnail": "bike.jpg"
+      },
+      {
+        "name": "Note",
+        "category": "Design",
+        "thumbnail": "note.jpg"
+      },
+      {
+        "name": "Office",
+        "category": "Design",
+        "thumbnail": "office.jpg"
+      },
+      {
+        "name": "Chancery",
+        "category": "Strategy",
+        "thumbnail": "chancery.jpg"
+      },
+      {
+        "name": "Events",
+        "category": "Branding",
+        "thumbnail": "events.jpg"
+      }
+    ],
+    "Branding": [
+      {
+        "name": "Hair Dresser",
+        "category": "Branding",
+        "thumbnail": "hair-dresser.jpg"
+      },
+      {
+        "name": "Bike",
+        "category": "Branding",
+        "thumbnail": "bike.jpg"
+      },
+      {
+        "name": "Events",
+        "category": "Branding",
+        "thumbnail": "events.jpg"
+      }
+    ],
+    "Design": [
+      {
+        "name": "Bird",
+        "category": "Design",
+        "thumbnail": "bird.jpg"
+      },
+      {
+        "name": "Note",
+        "category": "Design",
+        "thumbnail": "note.jpg"
+      },
+      {
+        "name": "Office",
+        "category": "Design",
+        "thumbnail": "office.jpg"
+      }
+    ],
+    "Development": [
+      {
+        "name": "Devices",
+        "category": "Development",
+        "thumbnail": "devices.jpg"
+      }
+    ],
+    "Strategy": [
+      {
+        "name": "Camera",
+        "category": "Strategy",
+        "thumbnail": "bird.jpg"
+      },
+      {
+        "name": "Chancery",
+        "category": "Strategy",
+        "thumbnail": "chancery.jpg"
+      }
+    ]
+  },
+  "works": [
+    {
+      "name": "Hair Dresser",
+      "category": "branding",
+      "thumbnail": "hair-dresser.jpg"
+    },
+    {
+      "name": "Bird",
+      "category": "Design",
+      "thumbnail": "bird.jpg"
+    },
+    {
+      "name": "Devices",
+      "category": "Development",
+      "thumbnail": "devices.jpg"
+    },
+    {
+      "name": "Camera",
+      "category": "Strategy",
+      "thumbnail": "bird.jpg"
+    },
+    {
+      "name": "Bike",
+      "category": "Branding",
+      "thumbnail": "bike.jpg"
+    },
+    {
+      "name": "Note",
+      "category": "Design",
+      "thumbnail": "note.jpg"
+    },
+    {
+      "name": "Office",
+      "category": "Design",
+      "thumbnail": "office.jpg"
+    },
+    {
+      "name": "Chancery",
+      "category": "Strategy",
+      "thumbnail": "chancery.jpg"
+    },
+    {
+      "name": "Events",
+      "category": "Branding",
+      "thumbnail": "events.jpg"
+    }
+  ]
+}
