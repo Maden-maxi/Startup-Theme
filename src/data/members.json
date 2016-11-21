@@ -38,5 +38,15 @@
       "gplus": "https://plus.google.com/john-doe",
       "linkedin": "https://www.linkedin.com/john-doe"
     }
+  },
+  "Denis Dnischenko": {
+    "photo": "denys-dnischenko.jpg",
+    "position": "Full-stack developer",
+    "social": {
+      "facebook": "https://www.facebook.com/100007891898101",
+      "twitter": "https://twitter.com/den_leo10",
+      "gplus": "https://plus.google.com/114742532215366293399",
+      "linkedin": "https://www.linkedin.com/"
+    }
   }
 }

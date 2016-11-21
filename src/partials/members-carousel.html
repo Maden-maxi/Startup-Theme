@@ -1,0 +1,28 @@
+<div class="members-carousel row">
+    {{#each members as |member name|}}
+    <div class="carousel-cell">
+        <div class="card">
+            <div class="card__container">
+                <img class="card__thumbnail" src="assets/img/members/{{member.photo}}" alt="{{name - member.position}}">
+
+                <div class="card__overlay">
+                    <div class="menu-centered member-links">
+                        <ul class="menu">
+                            {{#each member.social as |link social|}}
+                            <li class="social-link">
+                                <a href="{{link}}"><i
+                                        class="sui-{{social}}"></i></a>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center member-info">
+                <h3>{{name}}</h3>
+                <p>{{member.position}}</p>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
