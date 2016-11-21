@@ -1,33 +1,14 @@
 # Startup theme
+## Complited test task
+## [Обучение и стажировка - frontend developer (Кривой Рог)](https://docs.google.com/forms/d/e/1FAIpQLSeJlro1mMjvuyF_0wq0XMbyoI6lKfrDYmRA9DUQbMqnoOAzng/viewform)
 
-## Тестовое задание Обучение и стажировка - frontend developer (Кривой Рог)
+This template include:
+1. Adaptive design
+2. Flickity Slider - Members Carousel
+3. Latest Works - Tabs (JS)
+4. Smooth scroll
 
-Верста(Адаптивая) + js, плавний скрол по ссылкам, адаптиный слайдер, робочие тамбы (переключение по категориям робот)
-
-Сделано с помощью Foundation For Sites
-
-В папке `dist` лежит готовая верстка на продакшн, в папке src исходники .
-
-Для просмотра скопируйте репозиторий `git clone `
-
-Чтобы запустить зборку нужен **Node.js** и **NPM**.
-
-# ZURB Template
-
-[![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
-
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
-
-This is the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
-
-- Handlebars HTML templates with Panini
-- Sass compilation and prefixing
-- JavaScript concatenation
-- Built-in BrowserSync server
-- For production builds:
-  - CSS compression
-  - JavaScript compression
-  - Image compression
+Powered by [Foundation For Sites](http://foundation.zurb.com/sites/docs/)
 
 ## Installation
 
@@ -35,24 +16,6 @@ To use this template, your computer needs:
 
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
-
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
-
-### Using the CLI
-
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template zurb
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
 
 ### Manual Setup
 
@@ -65,7 +28,7 @@ git clone https://github.com/zurb/foundation-zurb-template projectname
 Then open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd startup-theme
 npm install
 bower install
 ```
