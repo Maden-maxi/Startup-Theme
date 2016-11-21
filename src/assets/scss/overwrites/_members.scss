@@ -28,9 +28,23 @@
   }
 }
 .members-carousel{
+  margin-top: 50px;
   .carousel-cell{
     width: 25%;
     padding-left: 15px;
     padding-right: 15px;
+    @include breakpoint(small) {
+      width: 100%;
+    }
+    @include breakpoint(medium) {
+      width: 50%;
+    }
+    @include breakpoint(large) {
+      width: 25%;
+    }
+    .card__container{
+      max-width: 255px;
+      margin: auto;
+    }
   }
 }

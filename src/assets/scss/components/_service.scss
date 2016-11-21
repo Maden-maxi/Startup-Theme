@@ -5,6 +5,7 @@
     height: 90px;
     border: 2px solid #dfdfdf;
     box-shadow: none;
+    margin-bottom: 30px;
     .sui-code{
       left: 48%;
     }
@@ -26,5 +27,8 @@
   }
   &:last-child{
     padding-right: 0;
+  }
+  &__title{
+    margin-bottom: 22px;
   }
 }

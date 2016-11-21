@@ -1,3 +1,17 @@
+# Startup theme
+
+## Тестовое задание Обучение и стажировка - frontend developer (Кривой Рог)
+
+Верста(Адаптивая) + js, плавний скрол по ссылкам, адаптиный слайдер, робочие тамбы (переключение по категориям робот)
+
+Сделано с помощью Foundation For Sites
+
+В папке `dist` лежит готовая верстка на продакшн, в папке src исходники .
+
+Для просмотра скопируйте репозиторий `git clone `
+
+Чтобы запустить зборку нужен **Node.js** и **NPM**.
+
 # ZURB Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
